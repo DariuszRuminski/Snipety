@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0 0 30px 0;
+}
+
+.numer{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+#kontener{
+    width: 30vw;
+    height: 30vw;
+    background-color: orange;
+    
+}
+
+#kontener-2{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    background-color: yellow;
+    transform: translate(-50%, -50%);
+}
+
+#przycisk{
+    position: relative;
+    left: 10%;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: deepskyblue;
+    border-radius: 100%;
+    line-height: 90px;
+    transition-duration: 1s;
+}
+
+#przycisk:hover{
+    position: relative;
+    left: 10%;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+    background-color: deepskyblue;
+}
+
+#grad{
+    height: 200px;
+    background: linear-gradient(to right,red, orange, yellow, green, blue, purple); 
+}
+
+.fa-ul{
+    font-size: 20px;
+    color: green;
+}
+
+::placeholder{
+    color: green;
+}
+
+.list-item {
+    margin: 0 0 0 0;
+}
+
+ a[href$=".docx"]
+{
+    color: red;
+}
+
+
+.copyright{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    background-color: #2b4a64;
+    width: 100%;
+}
+
+q{
+    quotes: '"' '"';
+}
+
+q:lang(en){
+    quotes: "*" "*";
+}
+
+#tlo{
+    background-image: url(../img/space-12.jpg);
+    width: 500px;
+    height: 300px;
+    background-position: center;
+    background-size: 130%;
+    transition-duration: 1s;
+}
+
+#tlo:hover{
+    background-size: 200%;
+}
+
+
+
+.s{
+    display: inline-block;
+    position: relative;
+    padding: 0 30px 0 30px;
+    font-size: 100px;
+    color: red;
+}
+
+.se{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    background-image: url(../img/9f56798375a383a6c6133b313494256e--secret-code-red-hearts.jpg);
+    width: 80px;
+    height: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    animation: bicie 1s infinite;
+}
+
+@keyframes bicie{
+    0%{
+        transform: scale(1)
+    }
+    50%{
+        transform: scale(1.5);
+    }
+}
+
+
+
+.parallax{
+    background-image: url(../img/skyline-buildings-new-york-skyscrapers.jpg);
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
